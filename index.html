@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avenger Game</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+</head>
+<body>
+
+    <div class="game-section">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center selection-hero">
+                <div class="hero-icons" id="ironMan">
+                    <a href="javascript:void(0)" class="heroIcon">
+                        <img src="./assets/image/Avengers-Iron-Man-icon.png" alt="hero">
+                    </a>
+                </div>
+                <div class="hero-icons" id="captainAmerica">
+                    <a href="javascript:void(0)" class="heroIcon">
+                        <img src="./assets/image/Avengers-Captain-America-icon.png" alt="hero" title="Captain America">
+                    </a>
+                </div>
+                <div class="hero-icons" id="thor">
+                    <a href="javascript:void(0)" class="heroIcon">
+                        <img src="./assets/image/Avengers-Thor-icon.png" alt="hero" title="Thor">
+                    </a>
+                </div>
+                <div class="hero-icons" id="blackWidow">
+                    <a href="javascript:void(0)" class="heroIcon">
+                        <img src="./assets/image/Avengers-Black-Widow-icon.png" alt="hero" title="Black Widow">
+                    </a>
+                </div>
+                <div class="hero-icons" id="hulk">
+                    <a href="javascript:void(0)" class="heroIcon">
+                        <img src="./assets/image/Avengers-Hulk-icon.png" alt="hero" title="Hulk">
+                    </a>
+                </div>
+                <div class="hero-icons" id="loki">
+                    <a href="javascript:void(0)" class="heroIcon">
+                        <img src="./assets/image/Avengers-Loki-icon.png" alt="hero" title="Loki">
+                    </a>
+                </div>
+            </div>
+
+            <div id="result" class="text-center text-white"></div>
+
+            <div class=" justify-content-between align-items-center fight-game">
+                <div>
+                    <div id="yourHero"></div>
+                </div>
+                <button id="attackBtn">Attack</button>
+                <div>
+                    <div id="yourEnemy"></div>
+                </div>
+            </div>
+
+            <div class="again">
+                <button type="button" id="playAgain">Play Again</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="main-section">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center start-button">
+                <button type="button" id="startGame">Start</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center copy-right">
+        <p>Copyright by Nurlana Quluyeva</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
